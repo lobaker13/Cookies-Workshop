@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function(){
     Cookies.set( 'HotDogs', 0 );
     Cookies.set( 'Pizza', 0 );
     Cookies.set( 'Doughnuts', 0 );
-    window.location.reload();
-    fatty();
+    // window.location.reload();
+  
   };
 })
