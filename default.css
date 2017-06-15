@@ -1,3 +1,6 @@
+h1{
+  color: #E2C499;
+}
 img {
   width: 200px;
   height: 200px;
@@ -16,14 +19,13 @@ img {
 }
 
 html {
-	background-image: radial-gradient(red, yellow, green);
+	background-image: radial-gradient(#8C0004, #C8000A, #E8A735);
 }
 .checkoutbox {
   width: 100%;
 }
 #checkout {
   float: left;
-  /*text-align: right;*/
   width: 60px;
   height: 60px;
   border: none;
@@ -31,9 +33,9 @@ html {
 
 }
 img{
-  border-bottom: : 2px solid black;
-  border-left: 3px solid black;
-  border-right: 3px solid black;
+  border-bottom: : 5px solid #E2C499;
+  border-left: 5px solid #E2C499;
+  border-right: 5px solid #E2C499;
   border-radius: 50%;
   transition: all 0.5s ease;
 }
@@ -49,11 +51,12 @@ font-family: fantasy;
 }
 
 footer{
-  opacity: 0.2;
-  font-size: 13px
+  opacity: 0.4;
+  font-size: 15px;
 }
 
 footer:hover{
   opacity: 1;
   cursor:none;
+  color: #E2C499
 }
